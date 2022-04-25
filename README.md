@@ -1,14 +1,14 @@
-# Wichita VMUG - Tanzu Community Edition Workshop - March 2022
+# VMUG - Tanzu Community Edition Workshop - Hosting Wichita VMUG March 2022
 
 ## Launch Slides
 
 1. Clone the repository
     ```shell
-    git@github.com:dashaun/wichita-vmug-tce-workshop.git
+    git@github.com:lac0ste-oss/vmug-tce-workshop.git
     ```
 2. CD into the repository
     ```shell
-    cd wichita-vmug-tce-workshop
+    cd vmug-tce-workshop
     ```
 3. Install [vendir](https://carvel.dev/vendir/docs/v0.24.0/install)
 4. Download reveal.js
@@ -63,7 +63,7 @@ Share slides, github repo, docs, etc....
 
 
 mkdir /tanzu
-sudo chown dashaun: /tanzu
+sudo chown <user>: /tanzu
 ```
 
 
