@@ -1,4 +1,4 @@
-# VMUG - Tanzu Community Edition Workshop - Hosting Wichita VMUG March 2022
+# VMUG - Tanzu Community Edition Workshop - Hosted by Wichita VMUG March 2022
 
 ## Launch Slides
 
