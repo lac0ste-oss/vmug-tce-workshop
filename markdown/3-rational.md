@@ -7,7 +7,7 @@ sudo mkdir /tanzu
 sudo chown lac0ste: /tanzu
 cd /tanzu
 curl -LO https://github.com/vmware-tanzu/community-edition/releases/download/v0.10.0/tce-linux-amd64-v0.10.0.tar.gz
-tar -xzvf tce-linux-amd64-v0.10.0.tar.gz
+tar xzvf tce-linux-amd64-v0.10.0.tar.gz
 cd tce-linux-amd64-v0.10.0
 ./install.sh
 # Validate Version
