@@ -20,7 +20,13 @@ VMware Workstation 16 Pro [30 Day Evaluation](https://www.vmware.com/products/wo
 - Read and accept the terms of the license agreement.
 - Edit virtual machine settings:
 - 16GB Ram, 4x 1-core CPU, 16GB disk
-  - 18 GB of swap on the host really helped 
+  - swap on the host really helped 
+
+## Using VirtualBox
+
+- Deploy OVA, delete disk (OVA does not appear to work)
+- Attach minimal ISO
+- Install OS
 
 ---
 
@@ -38,17 +44,17 @@ systemctl start docker
 systemctl enable docker
 docker info
 # Install other tools - make sure network can reach outside
-tdnf install sudo parted nano wget tar -y
+tdnf install sudo parted wget tar -y
 ```
 
 ---
 
 ## Regular user instead of root
 ```bash
-useradd -m -G sudo dashaun
-usermod -aG docker dashaun
-passwd dashaun
-su - dashaun
+useradd -m -G sudo lac0ste
+usermod -aG docker lac0ste
+passwd lac0ste
+su - lac0ste
 ```
 
 ---
