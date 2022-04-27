@@ -4,10 +4,10 @@ Install Tanzu Community Edition CLI vs [hard way](https://github.com/kelseyhight
 
 ```bash
 sudo mkdir /tanzu
-sudo chown dashaun: /tanzu
+sudo chown lac0ste: /tanzu
 cd /tanzu
-wget https://github.com/vmware-tanzu/community-edition/releases/download/v0.10.0/tce-linux-amd64-v0.10.0.tar.gz
-tar -xvzf tce-linux-amd64-v0.10.0.tar.gz
+curl -LO https://github.com/vmware-tanzu/community-edition/releases/download/v0.10.0/tce-linux-amd64-v0.10.0.tar.gz
+tar -xzvf tce-linux-amd64-v0.10.0.tar.gz
 cd tce-linux-amd64-v0.10.0
 ./install.sh
 # Validate Version
