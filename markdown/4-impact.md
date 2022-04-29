@@ -12,7 +12,19 @@
 ```bash
 tanzu uc create tce-local -c calico -p 80:80 -p 443:443
 ```
-
+OUTPUT:
+```bash
+   Cluster created
+   To troubleshoot, use:
+   kubectl ${COMMAND} --kubeconfig /home/lac0ste/.config/tanzu/tkg/unmanaged/tce-local/kube.conf
+   
+   kubectl context set to tce-local
+   
+   tanzu package avaiilable list
+   
+Delete this cluster:
+   tanzu unmanaged delete tce-local
+```
 ---
 
 ## kubecolor
