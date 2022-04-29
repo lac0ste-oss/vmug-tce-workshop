@@ -30,8 +30,8 @@ Delete this cluster:
 ## kubecolor
 
 ```bash
-wget https://github.com/hidetatz/kubecolor/releases/download/v0.0.20/kubecolor_0.0.20_Linux_x86_64.tar.gz
-tar -xvzf kubecolor_0.0.20_Linux_x86_64.tar.gz
+curl -LO https://github.com/hidetatz/kubecolor/releases/download/v0.0.20/kubecolor_0.0.20_Linux_x86_64.tar.gz
+tar xzvf kubecolor_0.0.20_Linux_x86_64.tar.gz
 sudo install -o root -g root -m 0755 kubecolor /usr/local/bin/kubecolor
 alias kubectl="kubecolor"
 kubectl get node
